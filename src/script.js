@@ -17,8 +17,8 @@ import(localStorage.legacyTTS === "true" ? "./espeak.js" : "./liblipspeak.js").t
 
 let me = "";
 let trusted = false;
-let admin = false;
-let king = false;
+let admin = true;
+let king = true;
 let autorejoin = true;
 let blockerror = false;
 let unlocks = [];
